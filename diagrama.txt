@@ -1,0 +1,5 @@
+cliente - *cpf, nome, telefone, cep
+adm - *id_Admin, nome
+fornecedor - *CNPJ, marca, cep
+produto - *id-prod, preço, $fornecedor
+compra - *id_compra, $ID_produto, $CPF, Data
